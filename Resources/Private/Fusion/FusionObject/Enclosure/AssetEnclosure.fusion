@@ -1,0 +1,2 @@
+prototype(PunktDe.FusionFeed:Enclosure.AssetEnclosure) {
+    @class = 'PunktDe\\FusionFeed\\FusionObject\\Enclosure\\AssetEnclosureImplementation'

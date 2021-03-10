@@ -1,0 +1,4 @@
+prototype(PunktDe.FusionFeed:Feed) {
+    @class = 'PunktDe\\FusionFeed\\FusionObject\\FeedImplementation'
+    channel = PunktDe.FusionFeed:Channel
+}

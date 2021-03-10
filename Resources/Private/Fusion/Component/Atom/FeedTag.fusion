@@ -1,0 +1,12 @@
+prototype(PunktDe.FusionFeed:Component.Atom.FeedTag) < prototype(Neos.Fusion:Tag) {
+    tagName = 'link'
+
+    attributes {
+        rel = 'alternate'
+        type = 'application/rss+xml'
+        title = ${q(documentNode).property('title') + ' | RSS Feed'}
+        href = Neos.Neos:NodeUri {
+            format = 'feed'
+        }
+    }
+}

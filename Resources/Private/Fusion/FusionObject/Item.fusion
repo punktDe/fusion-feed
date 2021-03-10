@@ -1,0 +1,6 @@
+prototype(PunktDe.FusionFeed:Item) {
+    @class = 'PunktDe\\FusionFeed\\FusionObject\\ItemImplementation'
+
+    title = ''
+    description = ''
+}

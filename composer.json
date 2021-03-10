@@ -1,0 +1,20 @@
+{
+    "description": "A rss feed renderer for Fusion",
+    "type": "neos-package",
+    "name": "punktde/fusion-feed",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "^5.0 || ^7.0",
+        "suin/php-rss-writer": " ^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\FusionFeed\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.FusionFeed"
+        }
+    }
+}

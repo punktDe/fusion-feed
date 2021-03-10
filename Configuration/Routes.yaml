@@ -1,0 +1,12 @@
+-
+  name:  'Article Rss Feed'
+  uriPattern: '{node}.feed'
+  defaults:
+    '@package': 'Neos.Neos'
+    '@controller': 'Frontend\Node'
+    '@action': 'show'
+    '@format': 'feed'
+  routeParts:
+    'node':
+      handler: 'Neos\Neos\Routing\FrontendNodeRoutePartHandler'
+  appendExceedingArguments: true

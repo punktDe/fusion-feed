@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'PunktDe.FusionFeed': true
+
+  Flow:
+    mvc:
+      routes:
+        'PunktDe.FusionFeed': true

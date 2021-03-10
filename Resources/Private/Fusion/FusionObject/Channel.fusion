@@ -1,0 +1,15 @@
+prototype(PunktDe.FusionFeed:Channel) {
+    @class = 'PunktDe\\FusionFeed\\FusionObject\\ChannelImplementation'
+
+    title = ''
+    description = ''
+    url = ''
+    feedUrl = ''
+    language = 'en'
+    copyright = ''
+    pubDate = ${Date.now()}
+    lastBuildDate = ${Date.now()}
+    ttl = 60
+
+    items = Neos.Fusion:DataStructure
+}

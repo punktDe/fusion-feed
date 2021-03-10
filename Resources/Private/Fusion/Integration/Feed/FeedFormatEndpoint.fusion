@@ -1,0 +1,14 @@
+feed = Neos.Fusion:Case {
+    documentType {
+        condition = Neos.Fusion:CanRender {
+            type = ${q(documentNode).property('_nodeType.name') + '.Feed'}
+        }
+        type = ${q(documentNode).property('_nodeType.name') + '.Feed'}
+    }
+
+    default {
+        @position = 'end 9999'
+        condition = true
+        renderer = ${'No feed prototype defined for this document type.'}
+    }
+}
