@@ -37,7 +37,7 @@ class FeedImplementation extends AbstractFeedElement
         $feed = parent::evaluate();
 
         $response = $this->responseFactory->createResponse()
-            ->withHeader('content-type', 'application/atom+xml');
+            ->withHeader('content-type', 'application/atom+xml; charset=UTF-8');
 
         $contentStream = $this->contentStreamFactory->createStream($feed->render());
         $response = $response->withBody($contentStream);
