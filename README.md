@@ -1,5 +1,7 @@
 # PunktDe.FusionFeed
 
+[![Latest Stable Version](https://poser.pugx.org/punktDe/fusion-feed/v/stable)](https://packagist.org/packages/punktDe/fusion-feed) [![Total Downloads](https://poser.pugx.org/punktDe/fusion-feed/downloads)](https://packagist.org/packages/punktDe/fusion-feed) [![License](https://poser.pugx.org/punktDe/fusion-feed/license)](https://packagist.org/packages/punktDe/fusion-feed)
+
 Render RSS / Atom feeds using Fusion prototypes. 
 
 The Feed is accessed using a route with the alternative format "feed". 
