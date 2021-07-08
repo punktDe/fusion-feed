@@ -10,7 +10,7 @@ The Feed is accessed using a route with the alternative format "feed".
 
 Given you have a blog and a blog listing document type named `Vendor.Site:Document.BlogListing`, just add a prototype with the name `Vendor.Site:Document.BlogListing.Feed` and the following Fusion code:
 
-```
+```fusion
 prototype(Vendor.Site:Document.BlogListing.Feed) < prototype(PunktDe.FusionFeed:Feed) {
 
     channel {
