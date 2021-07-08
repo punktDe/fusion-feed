@@ -35,6 +35,6 @@ Internally the [php-rss-writer](https://github.com/suin/php-rss-writer) library 
 
 ## Installation
 
-```
-composer require punktde/fusion-feed
+```bash
+$ composer require punktde/fusion-feed
 ```
