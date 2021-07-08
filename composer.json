@@ -4,6 +4,7 @@
     "name": "punktde/fusion-feed",
     "license": "MIT",
     "require": {
+        "php": "^7.4 || ^8.0",
         "neos/neos": "^5.0 || ^7.0",
         "suin/php-rss-writer": " ^1.6"
     },
