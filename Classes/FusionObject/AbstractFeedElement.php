@@ -31,12 +31,8 @@ class AbstractFeedElement extends DataStructureImplementation
                 $value = $this->$formattedElementGetter();
             }
 
-            if (empty($value)) {
+            if (empty($value) || !method_exists($this->getFeedElement(), $key)) {
                 continue;
-            }
-
-            if (!method_exists($this->getFeedElement(), $key)) {
-                throw new FeedElementException(sprintf('The key "%s"is not valid for the feed element "%s"', $key, get_class($this->getFeedElement())), 1615238260);
             }
 
             if (is_array($value)) {
