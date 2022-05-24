@@ -5,8 +5,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
-        "neos/neos": "^5.0 || ^7.0 || ^8.0",
-        "suin/php-rss-writer": " ^1.6"
+        "neos/neos": "^5.0 || ^7.0 || ^8.0",
+        "suin/php-rss-writer": "^1.6"
     },
     "autoload": {
         "psr-4": {
