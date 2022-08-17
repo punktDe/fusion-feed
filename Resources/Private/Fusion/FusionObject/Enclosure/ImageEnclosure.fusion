@@ -1,2 +1,3 @@
 prototype(PunktDe.FusionFeed:Enclosure.ImageEnclosure) {
     @class = 'PunktDe\\FusionFeed\\FusionObject\\Enclosure\\ImageEnclosureImplementation'
+}
