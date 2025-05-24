@@ -8,5 +8,5 @@
     '@format': 'feed'
   routeParts:
     'node':
-      handler: 'Neos\Neos\Routing\FrontendNodeRoutePartHandler'
+      handler: Neos\Neos\FrontendRouting\FrontendNodeRoutePartHandlerInterface
   appendExceedingArguments: true
