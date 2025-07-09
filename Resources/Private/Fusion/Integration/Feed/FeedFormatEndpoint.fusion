@@ -1,4 +1,5 @@
 feed = Neos.Fusion:Case {
+
     documentType {
         condition = Neos.Fusion:CanRender {
             type = ${q(documentNode).property('_nodeType.name') + '.Feed'}
@@ -9,6 +10,14 @@ feed = Neos.Fusion:Case {
     default {
         @position = 'end 9999'
         condition = true
-        renderer = ${'No feed prototype defined for this document type.'}
+        renderer = Neos.Fusion:Http.Message {
+            prototype(Neos.Fusion:Http.ResponseHead) {
+                statusCode = ${404}
+            }
+
+            message = ${'No feed prototype defined for this document type.'}
+        }
+
+
     }
 }
